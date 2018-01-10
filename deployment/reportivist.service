@@ -1,0 +1,12 @@
+Description=Reportivist middleware Service
+After=multi-user.target
+
+[Service]
+Type=idle
+
+User=admin
+WorkingDirectory=/home/admin/reportivist/src/server//home/user/space/
+ExecStart=/usr/bin/python /home/admin/reportivist/src/server/manage.py runserver 0.0.0.0:8000 
+
+[Install]
+WantedBy=multi-user.target

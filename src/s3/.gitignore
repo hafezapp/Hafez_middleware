@@ -1,0 +1,2 @@
+#zip the cert and the code to submit to amazon lambda
+*.zip

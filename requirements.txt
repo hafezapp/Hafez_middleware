@@ -1,0 +1,7 @@
+djangorestframework
+markdown       # Markdown support for the browsable API.
+django-filter  # Filtering support
+pysodium
+pycrypto
+requests
+requests_aws4auth

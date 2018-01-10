@@ -1,0 +1,10 @@
+src/server/hrvr/settings.py filter=git-crypt diff=git-crypt
+src/server/reportivist_rest/settings.py filter=git-crypt diff=git-crypt
+src/server/reportivist_rest/server_settings.py filter=git-crypt diff=git-crypt
+src/server/reportivist_rest/test_secrets.py filter=git-crypt diff=git-crypt
+src/server/data/server_encryption_key filter=git-crypt diff=git-crypt
+src/s3/s3_client.key.pem filter=git-crypt diff=git-crypt
+src/s3/s3_settings.py filter=git-crypt diff=git-crypt
+deployment/ca.key.pem filter=git-crypt diff=git-crypt
+deployment/server.key.pem filter=git-crypt diff=git-crypt
+deployment/caislean_reportivist_server filter=git-crypt diff=git-crypt

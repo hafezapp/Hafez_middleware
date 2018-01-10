@@ -1,0 +1,18 @@
+#editors temp file
+*~
+.\#*
+\#*\#
+
+#python
+*.pyc
+
+#test data
+src/server/data/*.jpg
+
+#gnu global project files
+/GPATH
+/GRTAGS
+/GTAGS
+
+#old files kept for references
+*.old
