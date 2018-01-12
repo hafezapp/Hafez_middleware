@@ -88,3 +88,6 @@ S3 submission are done to api/v1/s3/submit-report (submit-attachment) api end po
 S3 is authenticated with s3_client.crt.pem and should be signed by the cert residing
 at /etc/nginx/cert/ca.crt.
 
+## Security Audit
+[Report](https://github.com/hafezapp/Hafez_middleware/blob/master/doc/Hafez%20Security%20Audit.pdf)
+
